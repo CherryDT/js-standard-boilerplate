@@ -1,5 +1,5 @@
 {
-  "name": "standard-boilerplate",
+  "name": "js-standard-boilerplate",
   "version": "1.0.0",
   "description": "JS Standard Boilerplate",
   "main": "main.js",
@@ -11,9 +11,6 @@
   "engines": {
     "node": "^8.0.0"
   },
-  "os": [
-    "win32"
-  ],
   "pre-commit": [
     "lint"
   ],
