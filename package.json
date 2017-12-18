@@ -4,9 +4,11 @@
   "description": "JS Standard Boilerplate",
   "main": "main.js",
   "scripts": {
+    "start": "node main.js",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "lint": "standard --verbose | snazzy",
-    "lint:fix": "standard --fix"
+    "lint": "node .scripts/ensure_linux.js \"standard --verbose | snazzy\"",
+    "lint:fix": "node .scripts/ensure_linux.js \"standard --fix\"",
+    "preinstall": "node .scripts/platform_check.js"
   },
   "engines": {
     "node": "^8.0.0"
