@@ -16,7 +16,7 @@
   script (in that case, even forward slashes work in the filename).
 
   To use this script, put the following into your npm scripts:
-  node ./.scripts/.ensure_linux.js "whatever command you want to run in Linux"
+  node .scripts/ensure_linux.js "whatever command you want to run in Linux"
 
   This script will pass the given command through to bash. Under Windows, it will detect and
   use the WSL bash or fail if WSL is not installed.
