@@ -2,6 +2,8 @@
 
 <a href="https://standardjs.com" style="float: right; padding: 0 0 20px 20px;"><img src="https://cdn.rawgit.com/feross/standard/master/sticker.svg" alt="Standard JavaScript" width="100" align="right"></a>
 
+**Note: This readme file applies to `js-standard-boilerplate` only. If you expect to find the readme file for a different project here, please disregard this file.**
+
 By David Trapp
 
 This project can serve as an opinionated bare-bones boilerplate for new node.js projects using the [JS Standard](https://github.com/standard/standard). It is designed for use with:
@@ -20,4 +22,4 @@ Features:
 * Comes with a .gitignore which should cover the basic needs.
 * The `package.json` is by default configured with `private: true` and `license: "UNLICENSED"` - you can always loosen it up.
 
-Note: This project is under the CC0 license. The `package.json` says otherwise but that's because it is part of the boilerplate for the projects it will be used with, it does not reflect the license of the boilerplate itself.
+This project is under the CC0 license. The `package.json` says otherwise but that's because it is part of the boilerplate for the projects it will be used with, it does not reflect the license of the boilerplate itself. Also, don't forget to change `README.md`, `LICENSE` as well as the package name in `package.json` when you use this boilerplate for a new project!
