@@ -12,6 +12,7 @@ This project can serve as an opinionated bare-bones boilerplate for new node.js 
 * VS Code in Windows
 * node.js 10 in Linux (WSL)
 * JS Standard
+* JS Standard VSCode extension
 
 Features:
 
